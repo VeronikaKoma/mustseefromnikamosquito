@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(66, 67, 61);
+    padding: 25px;
+}
+
+.TagLink {
+    margin-left: 1310px;
+    margin-top: 11px;
+    width: 120px !important;
+    align-items: calc(-11, 11, 11);
+    justify-content: end;
+    flex-direction: row;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap');
+
+.text-title {
+    margin-left: 25px;
+    margin-top: -10%;
+    color: beige;
+    font-size: 50px;
+    font-family: 'Rubik Microbe', cursive;
+    text-shadow: 10px 10px 7px #000;
+    -webkit-text-stroke: 2px rgb(248, 240, 120);
+    -webkit-text-fill-color: rgb(74, 77, 59);}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Rubik+Microbe&display=swap');
+
+.text-title2 {
+    margin-left: 25px;
+    margin-top: 2%;
+    color:bisque;
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Rubik Microbe', cursive;
+    text-shadow: 10px 10px 7px #000;
+    -webkit-text-stroke: 2px rgb(57, 55, 72);
+    -webkit-text-fill-color: rgb(227, 230, 198);
+}
+
+.cardsMovies {
+    margin: 10px 0 12px 0;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between; 
+    border-color: rgb(55, 71, 66)
+}
+
+.card {
+    margin-bottom: 25px;
+    background-color: rgb(213, 234, 179);
+    border-style: ridge;
+    border-color: rgb(92, 99, 87);
+    border-width:10px;
+}
+
+.card-img-top {
+
+    padding: 0px;
+    height: 25rem;
+    object-fit:fill;
+}
+
+.description {
+    height: 120px !important;
+    color:rgb(44, 21, 159);
+    overflow: auto; 
+    scrollbar-3dlight-color: antiquewhite;
+        }
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+    background-color: #d4e6c9; /* blue */
+}
+
+/* thumb for scrollbar */
+::-webkit-scrollbar-thumb {
+    background-color: #505050; /* green */
+    border-radius: 9em;
+    box-shadow: inset 1px 1px 10px rgb(213, 234, 179); /* yellow */
+}
+
+.btn-primary {
+    float: right;
+    background-color: rgba(14, 14, 14, 0.66);
+    border: 1px solid rgb(206, 218, 186);
+    position: absolute;
+    right: 5%;
+    bottom: 1%;
+    
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap');
+
+.copyright {
+    margin-left: 25px;
+    margin-top: 40px;
+    color: beige;
+    font-size: 40px;
+    font-family: 'Rubik Microbe', cursive;
+    text-shadow: 10px 10px 7px #000;
+    -webkit-text-stroke: 2px rgb(248, 240, 120);
+    -webkit-text-fill-color: rgb(74, 77, 59);
+}
+    
+
+.socialMedia {
+margin-right: 25px;
+margin-top: -65px;
+width: 40px 40px;
+float: right;
+justify-content: flex-end;
+}
+
+
