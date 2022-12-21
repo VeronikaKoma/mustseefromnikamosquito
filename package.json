@@ -4,6 +4,8 @@
   "description": "laCartelera",
   "main": "index.html",
   "dependencies": {
+    "composer": "^4.1.0",
+    "json": "^11.0.0",
     "json-server": "^0.17.1"
   },
   "devDependencies": {
