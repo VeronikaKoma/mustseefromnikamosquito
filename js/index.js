@@ -36,7 +36,7 @@ fetchMoviesJson().then(movies =>{
                     <h6 class="card-title"><b>Genero</b> : ${genre}</h6>
                 <details class="description"><summary><b>Description</b></summary><p>${resume}</p></details>
                     
-            <a +href="${btn}" target="_blank" class="btn-primary btn">See more </a>
+            <a href="${btn}" target="_blank" class="btn-primary btn">See more </a>
                 
                 
         </div>
